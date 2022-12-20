@@ -21,6 +21,11 @@ body {
   color: var(--brand-text-color);
 }
 
+ul, h4 {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -186,6 +191,7 @@ h3 {
   color: var(--basic-bakground-color);
   letter-spacing: 0.04em;
   cursor: pointer;
+  border: none;
 }
 
 .button:hover {
@@ -435,7 +441,8 @@ h3 {
   width: 168px;
   height: 88px;
 }
-.customers-list-item-link:hover svg {
+.customers-list-item-link:hover svg,
+.customers-list-item-link:focus svg {
   fill: var(--brand-text-color);
 }
 
@@ -639,7 +646,8 @@ h3 {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.list-discription:hover,  .list-discription:focus{
+.list-discription:hover,
+.list-discription:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
